@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/DaniG2k/korean_name.svg?branch=master)](https://travis-ci.org/DaniG2k/korean_name)
 
+[![Coverage Status](https://coveralls.io/repos/github/DaniG2k/korean_name/badge.svg?branch=master)](https://coveralls.io/github/DaniG2k/korean_name?branch=master)
+
 # KoreanName
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/korean_name`. To experiment with that code, run `bin/console` for an interactive prompt.
