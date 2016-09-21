@@ -1,8 +1,9 @@
-describe 'test one' do
+describe Hello do
   context 'first test' do
     it 'is a test' do
-      works = 'Travis works!'
-      expect(works).to eq(works)
+      hello = Hello.new
+
+      expect(hello.greet).to eq('Hello, world!')
     end
   end
 end
