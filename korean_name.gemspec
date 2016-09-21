@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["DaniG2k"]
   spec.email         = ["byakugan.87@gmail.com"]
 
-  spec.summary       = %q{A gem that converts Korean names into their English equivalent.}
-  #spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Korean to English names.}
+  spec.description   = %q{A gem that converts Korean names into their English equivalent.}
+  spec.homepage      = "https://github.com/DaniG2k/korean_name"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
