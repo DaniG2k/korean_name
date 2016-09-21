@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.org/DaniG2k/korean_name.svg?branch=master)](https://travis-ci.org/DaniG2k/korean_name)
-
-[![Coverage Status](https://coveralls.io/repos/github/DaniG2k/korean_name/badge.svg?branch=master)](https://coveralls.io/github/DaniG2k/korean_name?branch=master)
+[![Build Status](https://travis-ci.org/DaniG2k/korean_name.svg?branch=master)](https://travis-ci.org/DaniG2k/korean_name)  [![Coverage Status](https://coveralls.io/repos/github/DaniG2k/korean_name/badge.svg?branch=master)](https://coveralls.io/github/DaniG2k/korean_name?branch=master)
 
 # KoreanName
 
