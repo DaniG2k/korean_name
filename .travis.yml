@@ -1,6 +1,7 @@
 language: ruby
 rvm:
-  - 2.3.1-p112
+  - 2.2.3
 sudo: required
+dist: trusty
 cache: bundler
 script: 'bundle exec rspec spec'
