@@ -16,13 +16,11 @@ module KoreanName
     end
 
     def to_en
-      unless @kr_first_name.nil? && @kr_last_name.nil?
+      if @kr_first_name.present? && @kr_last_name.present?
         last_name = @dict[@kr_last_name]
         first_name = @kr_first_name.split('').map {|char| @dict[char]}.compact.join('')
-        last_name[0] = last_name[0].upcase
-        first_name[0] = first_name[0].upcase
 
-        {first_name: first_name, last_name: last_name}
+        {first_name: first_name.titleize, last_name: last_name.titleize}
       else
         {first_name: @en_first_name, last_name: @en_last_name}
       end
