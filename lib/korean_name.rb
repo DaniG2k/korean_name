@@ -1,5 +1,5 @@
 require "korean_name/version"
-require "korean_name/hello"
+require "korean_name/translator"
 
 module KoreanName
   # Your code goes here...
