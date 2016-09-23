@@ -50,8 +50,8 @@ module KoreanName
         }
       else
         {
-          first_name: @en_first_name,
-          last_name: @en_last_name
+          first_name: @en_first_name.titleize,
+          last_name: @en_last_name.titleize
         }
       end
     end
