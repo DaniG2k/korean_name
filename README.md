@@ -1,10 +1,8 @@
-[![Build Status](https://travis-ci.org/DaniG2k/korean_name.svg?branch=master)](https://travis-ci.org/DaniG2k/korean_name)  [![Coverage Status](https://coveralls.io/repos/github/DaniG2k/korean_name/badge.svg?branch=master)](https://coveralls.io/github/DaniG2k/korean_name?branch=master)
+[![Build Status](https://travis-ci.org/DaniG2k/korean_name.svg?branch=master)](https://travis-ci.org/DaniG2k/korean_name)   [![Coverage Status](https://coveralls.io/repos/github/DaniG2k/korean_name/badge.svg?branch=master)](https://coveralls.io/github/DaniG2k/korean_name?branch=master)
 
 # KoreanName
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/korean_name`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+The KoreanName gem converts Korean names from hangeul into their English equivalent. It can also do the reverse.
 
 ## Installation
 
@@ -24,15 +22,32 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Require the gem:
+
+```ruby
+require 'korean_name'
+```
+
+Then convert a Korean name into English:
+
+```ruby
+name = KoreanName::Translator.new :first_name => '연아', :last_name => "김"
+name.to_en
+ => {:first_name=>"Yeonah", :last_name=>"Kim"}
+```
+
+or do the opposite:
+
+```ruby
+name = KoreanName::Translator.new :first_name => "Sohyeon", :last_name => "Choe"
+name.to_ko
+ => {:first_name=>"소현", :last_name=>"최"}
+```
 
 ## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
 To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/korean_name.
-
