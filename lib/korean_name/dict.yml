@@ -1,580 +1,1160 @@
-가: 'ga'
-각: 'gak'
-간: 'gan'
-갈: 'gal'
-감: 'gam'
-갑: 'gap'
-갓: 'gat'
-강: 'gang'
-개: 'gae'
-객: 'gaek'
-거: 'geo'
-건: 'geon'
-걸: 'geol'
-검: 'geom'
-겁: 'geop'
-게: 'ge'
-겨: 'gyeo'
-격: 'gyeok'
-견: 'gyeon'
-결: 'gyeol'
-겸: 'gyeom'
-겹: 'gyeop'
-경: 'gyeong'
-계: 'gye'
-고: 'go'
-곡: 'gok'
-곤: 'gon'
-골: 'gol'
-곳: 'got'
-공: 'gong'
-곶: 'got'
-과: 'gwa'
-곽: 'gwak'
-관: 'gwan'
-괄: 'gwal'
-광: 'gwang'
-괘: 'gwae'
-괴: 'goe'
-굉: 'goeng'
-교: 'gyo'
-구: 'gu'
-국: 'guk'
-군: 'gun'
-굴: 'gul'
-굿: 'gut'
-궁: 'gung'
-권: 'gwon'
-궐: 'gwol'
-귀: 'gwi'
-규: 'gyu'
-균: 'gyun'
-귤: 'gyul'
-그: 'geu'
-극: 'geuk'
-근: 'geun'
-글: 'geul'
-금: 'geum'
-급: 'geup'
-긍: 'geung'
-기: 'gi'
-긴: 'gin'
-길: 'gil'
-김: 'kim'
-까: 'kka'
-깨: 'kkae'
-꼬: 'kko'
-꼭: 'kkok'
-꽃: 'kkot'
-꾀: 'kkoe'
-꾸: 'kku'
-꿈: 'kkum'
-끝: 'kkeut'
-끼: 'kki'
-나: 'na'
-낙: 'nak'
-난: 'nan'
-날: 'nal'
-남: 'nam'
-납: 'nap'
-낭: 'nang'
-내: 'nae'
-냉: 'naeng'
-너: 'neo'
-널: 'neol'
-네: 'ne'
-녀: 'nyeo'
-녁: 'nyeok'
-년: 'nyeon'
-념: 'nyeom'
-녕: 'nyeong'
-노: 'no'
-녹: 'nok'
-논: 'non'
-놀: 'nol'
-농: 'nong'
-뇌: 'noe'
-누: 'nu'
-눈: 'nun'
-눌: 'nul'
-느: 'neu'
-늑: 'neuk'
-늠: 'neum'
-능: 'neung'
-늬: 'nui'
-니: 'ni'
-닉: 'nik'
-닌: 'nin'
-닐: 'nil'
-님: 'nim'
-다: 'da'
-단: 'dan'
-달: 'dal'
-담: 'dam'
-답: 'dap'
-당: 'dang'
-대: 'dae'
-댁: 'daek'
-더: 'deo'
-덕: 'deok'
-도: 'do'
-독: 'dok'
-돈: 'don'
-돌: 'dol'
-동: 'dong'
-돼: 'dwae'
-되: 'doe'
-된: 'doen'
-두: 'du'
-둑: 'duk'
-둔: 'dun'
-뒤: 'dwi'
-드: 'deu'
-득: 'deuk'
-들: 'deul'
-등: 'deung'
-디: 'di'
-따: 'tta'
-땅: 'ttang'
-때: 'ttae'
-또: 'tto'
-뚜: 'ttu'
-뚝: 'ttuk'
-뜨: 'tteu'
-띠: 'tti'
-라: 'ra'
-락: 'rak'
-란: 'ran'
-람: 'ram'
-랑: 'rang'
-래: 'rae'
-랭: 'raeng'
-량: 'ryang'
-렁: 'reong'
-레: 're'
-려: 'ryeo'
-력: 'ryeok'
-련: 'ryeon'
-렬: 'ryeol'
-렴: 'ryeom'
-렵: 'ryeop'
-령: 'ryeong'
-례: 'rye'
-로: 'ro'
-록: 'rok'
-론: 'ron'
-롱: 'rong'
-뢰: 'roe'
-료: 'ryo'
-룡: 'ryong'
-루: 'ru'
-류: 'ryu'
-륙: 'ryuk'
-륜: 'ryun'
-률: 'ryul'
-륭: 'ryung'
-르: 'reu'
-륵: 'reuk'
-른: 'reun'
-름: 'reum'
-릉: 'reung'
-리: 'ri'
-린: 'rin'
-림: 'rim'
-립: 'rip'
-마: 'ma'
-막: 'mak'
-만: 'man'
-말: 'mal'
-망: 'mang'
-매: 'mae'
-맥: 'maek'
-맨: 'maen'
-맹: 'maeng'
-머: 'meo'
-먹: 'meok'
-메: 'me'
-며: 'myeo'
-멱: 'myeok'
-면: 'myeon'
-멸: 'myeol'
-명: 'myeong'
-모: 'mo'
-목: 'mok'
-몰: 'mol'
-못: 'mot'
-몽: 'mong'
-뫼: 'moe'
-묘: 'myo'
-무: 'mu'
-묵: 'muk'
-문: 'mun'
-물: 'mul'
-므: 'meu'
-미: 'mi'
-민: 'min'
-밀: 'mil'
-바: 'ba'
-박: 'bak'
-반: 'ban'
-발: 'bal'
-밥: 'bap'
-방: 'bang'
-배: 'bae'
-백: 'baek'
-뱀: 'baem'
-버: 'beo'
-번: 'beon'
-벌: 'beol'
-범: 'beom'
-법: 'beop'
-벼: 'byeo'
-벽: 'byeok'
-변: 'byeon'
-별: 'byeol'
-병: 'byeong'
-보: 'bo'
-복: 'bok'
-본: 'bon'
-봉: 'bong'
-부: 'bu'
-북: 'buk'
-분: 'bun'
-불: 'bul'
-붕: 'bung'
-비: 'bi'
-빈: 'bin'
-빌: 'bil'
-빔: 'bim'
-빙: 'bing'
-빠: 'ppa'
-빼: 'ppae'
-뻐: 'ppeo'
-뽀: 'ppo'
-뿌: 'ppu'
-쁘: 'ppeu'
-삐: 'ppi'
-사: 'sa'
-삭: 'sak'
-산: 'san'
-살: 'sal'
-삼: 'sam'
-삽: 'sap'
-상: 'sang'
-샅: 'sat'
-새: 'sae'
-색: 'saek'
-생: 'saeng'
-서: 'seo'
-석: 'seok'
-선: 'seon'
-설: 'seol'
-섬: 'seom'
-섭: 'seop'
-성: 'seong'
-세: 'se'
-셔: 'syeo'
-소: 'so'
-속: 'sok'
-손: 'son'
-솔: 'sol'
-솟: 'sot'
-송: 'song'
-쇄: 'swae'
-쇠: 'soe'
-수: 'su'
-숙: 'suk'
-순: 'sun'
-술: 'sul'
-숨: 'sum'
-숭: 'sung'
-쉬: 'swi'
-스: 'seu'
-슬: 'seul'
-슴: 'seum'
-습: 'seup'
-승: 'seung'
-시: 'si'
-식: 'sik'
-신: 'sin'
-실: 'sil'
-심: 'sim'
-십: 'sip'
-싱: 'sing'
-싸: 'ssa'
-쌍: 'ssang'
-쌔: 'ssae'
-쏘: 'sso'
-쑥: 'ssuk'
-씨: 'ssi'
-아: 'ah'
-악: 'ak'
-안: 'an'
-알: 'al'
-암: 'am'
-압: 'ap'
-앙: 'ang'
-앞: 'ap'
-애: 'ae'
-액: 'aek'
-앵: 'aeng'
-야: 'ya'
-약: 'yak'
-얀: 'yan'
-양: 'yang'
-어: 'eo'
-억: 'eok'
-언: 'eon'
-얼: 'eol'
-엄: 'eom'
-업: 'eop'
-에: 'ae'
-여: 'yeo'
-역: 'yeok'
-연: 'yeon'
-열: 'yeol'
-염: 'yeom'
-엽: 'yeop'
-영: 'yeong'
-예: 'ye'
-오: 'oh'
-옥: 'ok'
-온: 'on'
-올: 'ol'
-옴: 'om'
-옹: 'ong'
-와: 'wa'
-완: 'wan'
-왈: 'wal'
-왕: 'wang'
-왜: 'wae'
-외: 'oe'
-왼: 'oen'
-요: 'yo'
-욕: 'yok'
-용: 'yong'
-우: 'oo'
-욱: 'uk'
-운: 'un'
-울: 'ul'
-움: 'um'
-웅: 'ung'
-워: 'wo'
-원: 'won'
-월: 'wol'
-위: 'wi'
-유: 'yu'
-육: 'yuk'
-윤: 'yun'
-율: 'yul'
-융: 'yung'
-윷: 'yut'
-으: 'eu'
-은: 'eun'
-을: 'eul'
-음: 'eum'
-읍: 'eup'
-응: 'eung'
-의: 'ui'
-이: 'yi'
-익: 'ik'
-인: 'in'
-일: 'il'
-임: 'im'
-입: 'ip'
-잉: 'ing'
-자: 'ja'
-작: 'jak'
-잔: 'jan'
-잠: 'jam'
-잡: 'jap'
-장: 'jang'
-재: 'jae'
-쟁: 'jaeng'
-저: 'jeo'
-적: 'jeok'
-전: 'jeon'
-절: 'jeol'
-점: 'jeom'
-접: 'jeop'
-정: 'jeong'
-제: 'je'
-조: 'jo'
-족: 'jok'
-존: 'jon'
-졸: 'jol'
-종: 'jong'
-좌: 'jwa'
-죄: 'joe'
-주: 'ju'
-죽: 'juk'
-준: 'jun'
-줄: 'jul'
-중: 'jung'
-쥐: 'jwi'
-즈: 'jeu'
-즉: 'jeuk'
-즐: 'jeul'
-즘: 'jeum'
-즙: 'jeup'
-증: 'jeung'
-지: 'ji'
-직: 'jik'
-진: 'jin'
-질: 'jil'
-짐: 'jim'
-집: 'jip'
-징: 'jing'
-짜: 'jja'
-째: 'jjae'
-쪼: 'jjo'
-찌: 'jji'
-차: 'cha'
-착: 'chak'
-찬: 'chan'
-찰: 'chal'
-참: 'cham'
-창: 'chang'
-채: 'chae'
-책: 'chaek'
-처: 'cheo'
-척: 'cheok'
-천: 'cheon'
-철: 'cheol'
-첨: 'cheom'
-첩: 'cheop'
-청: 'cheong'
-체: 'che'
-초: 'cho'
-촉: 'chok'
-촌: 'chon'
-총: 'chong'
-최: 'choe'
-추: 'chu'
-축: 'chuk'
-춘: 'chun'
-출: 'chul'
-춤: 'chum'
-충: 'chung'
-측: 'cheuk'
-층: 'cheung'
-치: 'chi'
-칙: 'chik'
-친: 'chin'
-칠: 'chil'
-침: 'chim'
-칩: 'chip'
-칩: 'chip'
-칭: 'ching'
-칭: 'ching'
-코: 'ko'
-쾌: 'kwae'
-크: 'keu'
-큰: 'keun'
-키: 'ki'
-타: 'ta'
-탁: 'tak'
-탄: 'tan'
-탈: 'tal'
-탐: 'tam'
-탑: 'tap'
-탕: 'tang'
-태: 'tae'
-택: 'taek'
-탱: 'taeng'
-터: 'teo'
-테: 'te'
-토: 'to'
-톤: 'ton'
-톨: 'tol'
-통: 'tong'
-퇴: 'toe'
-투: 'tu'
-퉁: 'tung'
-튀: 'twi'
-트: 'teu'
-특: 'teuk'
-틈: 'teum'
-티: 'ti'
-파: 'pa'
-판: 'pan'
-팔: 'pal'
-패: 'pae'
-팽: 'paeng'
-퍼: 'peo'
-페: 'pe'
-펴: 'pyeo'
-편: 'pyeon'
-폄: 'pyeom'
-평: 'pyeong'
-폐: 'pye'
-포: 'po'
-폭: 'pok'
-표: 'pyo'
-푸: 'pu'
-품: 'pum'
-풍: 'pung'
-프: 'peu'
-피: 'pi'
-픽: 'pik'
-필: 'pil'
-핍: 'pip'
-하: 'ha'
-학: 'hak'
-한: 'han'
-할: 'hal'
-함: 'ham'
-합: 'hap'
-항: 'hang'
-해: 'hae'
-핵: 'haek'
-행: 'haeng'
-향: 'hyang'
-허: 'heo'
-헌: 'heon'
-험: 'heom'
-헤: 'he'
-혀: 'hyeo'
-혁: 'hyeok'
-현: 'hyeon'
-혈: 'hyeol'
-혐: 'hyeom'
-협: 'hyeop'
-형: 'hyeong'
-혜: 'hye'
-호: 'ho'
-혹: 'hok'
-혼: 'hon'
-홀: 'hol'
-홉: 'hop'
-홍: 'hong'
-화: 'hwa'
-확: 'hwak'
-환: 'hwan'
-활: 'hwal'
-황: 'hwang'
-홰: 'hwae'
-횃: 'hwaet'
-회: 'hoe'
-획: 'hoek'
-횡: 'hoeng'
-효: 'hyo'
-후: 'hu'
-훈: 'hun'
-훤: 'hwon'
-훼: 'hwe'
-휘: 'hwi'
-휴: 'hyu'
-휼: 'hyul'
-흉: 'hyung'
-흐: 'heu'
-흑: 'heuk'
-흔: 'heun'
-흘: 'heul'
-흠: 'heum'
-흡: 'heup'
-흥: 'heung'
-희: 'hui'
-흰: 'huin'
-히: 'hi'
-힘: 'him'
+ko:
+  가: 'ga'
+  각: 'gak'
+  간: 'gan'
+  갈: 'gal'
+  감: 'gam'
+  갑: 'gap'
+  갓: 'gat'
+  강: 'gang'
+  개: 'gae'
+  객: 'gaek'
+  거: 'geo'
+  건: 'geon'
+  걸: 'geol'
+  검: 'geom'
+  겁: 'geop'
+  게: 'ge'
+  겨: 'gyeo'
+  격: 'gyeok'
+  견: 'gyeon'
+  결: 'gyeol'
+  겸: 'gyeom'
+  겹: 'gyeop'
+  경: 'gyeong'
+  계: 'gye'
+  고: 'go'
+  곡: 'gok'
+  곤: 'gon'
+  골: 'gol'
+  곳: 'got'
+  공: 'gong'
+  곶: 'got'
+  과: 'gwa'
+  곽: 'gwak'
+  관: 'gwan'
+  괄: 'gwal'
+  광: 'gwang'
+  괘: 'gwae'
+  괴: 'goe'
+  굉: 'goeng'
+  교: 'gyo'
+  구: 'gu'
+  국: 'guk'
+  군: 'gun'
+  굴: 'gul'
+  굿: 'gut'
+  궁: 'gung'
+  권: 'gwon'
+  궐: 'gwol'
+  귀: 'gwi'
+  규: 'gyu'
+  균: 'gyun'
+  귤: 'gyul'
+  그: 'geu'
+  극: 'geuk'
+  근: 'geun'
+  글: 'geul'
+  금: 'geum'
+  급: 'geup'
+  긍: 'geung'
+  기: 'gi'
+  긴: 'gin'
+  길: 'gil'
+  김: 'kim'
+  까: 'kka'
+  깨: 'kkae'
+  꼬: 'kko'
+  꼭: 'kkok'
+  꽃: 'kkot'
+  꾀: 'kkoe'
+  꾸: 'kku'
+  꿈: 'kkum'
+  끝: 'kkeut'
+  끼: 'kki'
+  나: 'na'
+  낙: 'nak'
+  난: 'nan'
+  날: 'nal'
+  남: 'nam'
+  납: 'nap'
+  낭: 'nang'
+  내: 'nae'
+  냉: 'naeng'
+  너: 'neo'
+  널: 'neol'
+  네: 'ne'
+  녀: 'nyeo'
+  녁: 'nyeok'
+  년: 'nyeon'
+  념: 'nyeom'
+  녕: 'nyeong'
+  노: 'no'
+  녹: 'nok'
+  논: 'non'
+  놀: 'nol'
+  농: 'nong'
+  뇌: 'noe'
+  누: 'nu'
+  눈: 'nun'
+  눌: 'nul'
+  느: 'neu'
+  늑: 'neuk'
+  늠: 'neum'
+  능: 'neung'
+  늬: 'nui'
+  니: 'ni'
+  닉: 'nik'
+  닌: 'nin'
+  닐: 'nil'
+  님: 'nim'
+  다: 'da'
+  단: 'dan'
+  달: 'dal'
+  담: 'dam'
+  답: 'dap'
+  당: 'dang'
+  대: 'dae'
+  댁: 'daek'
+  더: 'deo'
+  덕: 'deok'
+  도: 'do'
+  독: 'dok'
+  돈: 'don'
+  돌: 'dol'
+  동: 'dong'
+  돼: 'dwae'
+  되: 'doe'
+  된: 'doen'
+  두: 'du'
+  둑: 'duk'
+  둔: 'dun'
+  뒤: 'dwi'
+  드: 'deu'
+  득: 'deuk'
+  들: 'deul'
+  등: 'deung'
+  디: 'di'
+  따: 'tta'
+  땅: 'ttang'
+  때: 'ttae'
+  또: 'tto'
+  뚜: 'ttu'
+  뚝: 'ttuk'
+  뜨: 'tteu'
+  띠: 'tti'
+  라: 'ra'
+  락: 'rak'
+  란: 'ran'
+  람: 'ram'
+  랑: 'rang'
+  래: 'rae'
+  랭: 'raeng'
+  량: 'ryang'
+  렁: 'reong'
+  레: 're'
+  려: 'ryeo'
+  력: 'ryeok'
+  련: 'ryeon'
+  렬: 'ryeol'
+  렴: 'ryeom'
+  렵: 'ryeop'
+  령: 'ryeong'
+  례: 'rye'
+  로: 'ro'
+  록: 'rok'
+  론: 'ron'
+  롱: 'rong'
+  뢰: 'roe'
+  료: 'ryo'
+  룡: 'ryong'
+  루: 'ru'
+  류: 'ryu'
+  륙: 'ryuk'
+  륜: 'ryun'
+  률: 'ryul'
+  륭: 'ryung'
+  르: 'reu'
+  륵: 'reuk'
+  른: 'reun'
+  름: 'reum'
+  릉: 'reung'
+  리: 'ri'
+  린: 'rin'
+  림: 'rim'
+  립: 'rip'
+  마: 'ma'
+  막: 'mak'
+  만: 'man'
+  말: 'mal'
+  망: 'mang'
+  매: 'mae'
+  맥: 'maek'
+  맨: 'maen'
+  맹: 'maeng'
+  머: 'meo'
+  먹: 'meok'
+  메: 'me'
+  며: 'myeo'
+  멱: 'myeok'
+  면: 'myeon'
+  멸: 'myeol'
+  명: 'myeong'
+  모: 'mo'
+  목: 'mok'
+  몰: 'mol'
+  못: 'mot'
+  몽: 'mong'
+  뫼: 'moe'
+  묘: 'myo'
+  무: 'mu'
+  묵: 'muk'
+  문: 'mun'
+  물: 'mul'
+  므: 'meu'
+  미: 'mi'
+  민: 'min'
+  밀: 'mil'
+  바: 'ba'
+  박: 'bak'
+  반: 'ban'
+  발: 'bal'
+  밥: 'bap'
+  방: 'bang'
+  배: 'bae'
+  백: 'baek'
+  뱀: 'baem'
+  버: 'beo'
+  번: 'beon'
+  벌: 'beol'
+  범: 'beom'
+  법: 'beop'
+  벼: 'byeo'
+  벽: 'byeok'
+  변: 'byeon'
+  별: 'byeol'
+  병: 'byeong'
+  보: 'bo'
+  복: 'bok'
+  본: 'bon'
+  봉: 'bong'
+  부: 'bu'
+  북: 'buk'
+  분: 'bun'
+  불: 'bul'
+  붕: 'bung'
+  비: 'bi'
+  빈: 'bin'
+  빌: 'bil'
+  빔: 'bim'
+  빙: 'bing'
+  빠: 'ppa'
+  빼: 'ppae'
+  뻐: 'ppeo'
+  뽀: 'ppo'
+  뿌: 'ppu'
+  쁘: 'ppeu'
+  삐: 'ppi'
+  사: 'sa'
+  삭: 'sak'
+  산: 'san'
+  살: 'sal'
+  삼: 'sam'
+  삽: 'sap'
+  상: 'sang'
+  샅: 'sat'
+  새: 'sae'
+  색: 'saek'
+  생: 'saeng'
+  서: 'seo'
+  석: 'seok'
+  선: 'seon'
+  설: 'seol'
+  섬: 'seom'
+  섭: 'seop'
+  성: 'seong'
+  세: 'se'
+  셔: 'syeo'
+  소: 'so'
+  속: 'sok'
+  손: 'son'
+  솔: 'sol'
+  솟: 'sot'
+  송: 'song'
+  쇄: 'swae'
+  쇠: 'soe'
+  수: 'su'
+  숙: 'suk'
+  순: 'sun'
+  술: 'sul'
+  숨: 'sum'
+  숭: 'sung'
+  쉬: 'swi'
+  스: 'seu'
+  슬: 'seul'
+  슴: 'seum'
+  습: 'seup'
+  승: 'seung'
+  시: 'si'
+  식: 'sik'
+  신: 'sin'
+  실: 'sil'
+  심: 'sim'
+  십: 'sip'
+  싱: 'sing'
+  싸: 'ssa'
+  쌍: 'ssang'
+  쌔: 'ssae'
+  쏘: 'sso'
+  쑥: 'ssuk'
+  씨: 'ssi'
+  아: 'ah'
+  악: 'ak'
+  안: 'an'
+  알: 'al'
+  암: 'am'
+  압: 'ap'
+  앙: 'ang'
+  앞: 'ap'
+  애: 'ae'
+  액: 'aek'
+  앵: 'aeng'
+  야: 'ya'
+  약: 'yak'
+  얀: 'yan'
+  양: 'yang'
+  어: 'eo'
+  억: 'eok'
+  언: 'eon'
+  얼: 'eol'
+  엄: 'eom'
+  업: 'eop'
+  에: 'ae'
+  여: 'yeo'
+  역: 'yeok'
+  연: 'yeon'
+  열: 'yeol'
+  염: 'yeom'
+  엽: 'yeop'
+  영: 'yeong'
+  예: 'ye'
+  오: 'oh'
+  옥: 'ok'
+  온: 'on'
+  올: 'ol'
+  옴: 'om'
+  옹: 'ong'
+  와: 'wa'
+  완: 'wan'
+  왈: 'wal'
+  왕: 'wang'
+  왜: 'wae'
+  외: 'oe'
+  왼: 'oen'
+  요: 'yo'
+  욕: 'yok'
+  용: 'yong'
+  우: 'oo'
+  욱: 'uk'
+  운: 'un'
+  울: 'ul'
+  움: 'um'
+  웅: 'ung'
+  워: 'wo'
+  원: 'won'
+  월: 'wol'
+  위: 'wi'
+  유: 'yu'
+  육: 'yuk'
+  윤: 'yun'
+  율: 'yul'
+  융: 'yung'
+  윷: 'yut'
+  으: 'eu'
+  은: 'eun'
+  을: 'eul'
+  음: 'eum'
+  읍: 'eup'
+  응: 'eung'
+  의: 'ui'
+  이: 'yi'
+  익: 'ik'
+  인: 'in'
+  일: 'il'
+  임: 'im'
+  입: 'ip'
+  잉: 'ing'
+  자: 'ja'
+  작: 'jak'
+  잔: 'jan'
+  잠: 'jam'
+  잡: 'jap'
+  장: 'jang'
+  재: 'jae'
+  쟁: 'jaeng'
+  저: 'jeo'
+  적: 'jeok'
+  전: 'jeon'
+  절: 'jeol'
+  점: 'jeom'
+  접: 'jeop'
+  정: 'jeong'
+  제: 'je'
+  조: 'jo'
+  족: 'jok'
+  존: 'jon'
+  졸: 'jol'
+  종: 'jong'
+  좌: 'jwa'
+  죄: 'joe'
+  주: 'ju'
+  죽: 'juk'
+  준: 'jun'
+  줄: 'jul'
+  중: 'jung'
+  쥐: 'jwi'
+  즈: 'jeu'
+  즉: 'jeuk'
+  즐: 'jeul'
+  즘: 'jeum'
+  즙: 'jeup'
+  증: 'jeung'
+  지: 'ji'
+  직: 'jik'
+  진: 'jin'
+  질: 'jil'
+  짐: 'jim'
+  집: 'jip'
+  징: 'jing'
+  짜: 'jja'
+  째: 'jjae'
+  쪼: 'jjo'
+  찌: 'jji'
+  차: 'cha'
+  착: 'chak'
+  찬: 'chan'
+  찰: 'chal'
+  참: 'cham'
+  창: 'chang'
+  채: 'chae'
+  책: 'chaek'
+  처: 'cheo'
+  척: 'cheok'
+  천: 'cheon'
+  철: 'cheol'
+  첨: 'cheom'
+  첩: 'cheop'
+  청: 'cheong'
+  체: 'che'
+  초: 'cho'
+  촉: 'chok'
+  촌: 'chon'
+  총: 'chong'
+  최: 'choe'
+  추: 'chu'
+  축: 'chuk'
+  춘: 'chun'
+  출: 'chul'
+  춤: 'chum'
+  충: 'chung'
+  측: 'cheuk'
+  층: 'cheung'
+  치: 'chi'
+  칙: 'chik'
+  친: 'chin'
+  칠: 'chil'
+  침: 'chim'
+  칩: 'chip'
+  칩: 'chip'
+  칭: 'ching'
+  칭: 'ching'
+  코: 'ko'
+  쾌: 'kwae'
+  크: 'keu'
+  큰: 'keun'
+  키: 'ki'
+  타: 'ta'
+  탁: 'tak'
+  탄: 'tan'
+  탈: 'tal'
+  탐: 'tam'
+  탑: 'tap'
+  탕: 'tang'
+  태: 'tae'
+  택: 'taek'
+  탱: 'taeng'
+  터: 'teo'
+  테: 'te'
+  토: 'to'
+  톤: 'ton'
+  톨: 'tol'
+  통: 'tong'
+  퇴: 'toe'
+  투: 'tu'
+  퉁: 'tung'
+  튀: 'twi'
+  트: 'teu'
+  특: 'teuk'
+  틈: 'teum'
+  티: 'ti'
+  파: 'pa'
+  판: 'pan'
+  팔: 'pal'
+  패: 'pae'
+  팽: 'paeng'
+  퍼: 'peo'
+  페: 'pe'
+  펴: 'pyeo'
+  편: 'pyeon'
+  폄: 'pyeom'
+  평: 'pyeong'
+  폐: 'pye'
+  포: 'po'
+  폭: 'pok'
+  표: 'pyo'
+  푸: 'pu'
+  품: 'pum'
+  풍: 'pung'
+  프: 'peu'
+  피: 'pi'
+  픽: 'pik'
+  필: 'pil'
+  핍: 'pip'
+  하: 'ha'
+  학: 'hak'
+  한: 'han'
+  할: 'hal'
+  함: 'ham'
+  합: 'hap'
+  항: 'hang'
+  해: 'hae'
+  핵: 'haek'
+  행: 'haeng'
+  향: 'hyang'
+  허: 'heo'
+  헌: 'heon'
+  험: 'heom'
+  헤: 'he'
+  혀: 'hyeo'
+  혁: 'hyeok'
+  현: 'hyeon'
+  혈: 'hyeol'
+  혐: 'hyeom'
+  협: 'hyeop'
+  형: 'hyeong'
+  혜: 'hye'
+  호: 'ho'
+  혹: 'hok'
+  혼: 'hon'
+  홀: 'hol'
+  홉: 'hop'
+  홍: 'hong'
+  화: 'hwa'
+  확: 'hwak'
+  환: 'hwan'
+  활: 'hwal'
+  황: 'hwang'
+  홰: 'hwae'
+  횃: 'hwaet'
+  회: 'hoe'
+  획: 'hoek'
+  횡: 'hoeng'
+  효: 'hyo'
+  후: 'hu'
+  훈: 'hun'
+  훤: 'hwon'
+  훼: 'hwe'
+  휘: 'hwi'
+  휴: 'hyu'
+  휼: 'hyul'
+  흉: 'hyung'
+  흐: 'heu'
+  흑: 'heuk'
+  흔: 'heun'
+  흘: 'heul'
+  흠: 'heum'
+  흡: 'heup'
+  흥: 'heung'
+  희: 'hui'
+  흰: 'huin'
+  히: 'hi'
+  힘: 'him'
+en:
+  ga: 가
+  gak: 각
+  gan: 간
+  gal: 갈
+  gam: 감
+  gap: 갑
+  gat: 갓
+  gang: 강
+  gae: 개
+  gaek: 객
+  geo: 거
+  geon: 건
+  geol: 걸
+  geom: 검
+  geop: 겁
+  ge: 게
+  gyeo: 겨
+  gyeok: 격
+  gyeon: 견
+  gyeol: 결
+  gyeom: 겸
+  gyeop: 겹
+  gyeong: 경
+  gye: 계
+  go: 고
+  gok: 곡
+  gon: 곤
+  gol: 골
+  got: 곳
+  gong: 공
+  got: 곶
+  gwa: 과
+  gwak: 곽
+  gwan: 관
+  gwal: 괄
+  gwang: 광
+  gwae: 괘
+  goe: 괴
+  goeng: 굉
+  gyo: 교
+  gu: 구
+  guk: 국
+  gun: 군
+  gul: 굴
+  gut: 굿
+  gung: 궁
+  gwon: 권
+  gwol: 궐
+  gwi: 귀
+  gyu: 규
+  gyun: 균
+  gyul: 귤
+  geu: 그
+  geuk: 극
+  geun: 근
+  geul: 글
+  geum: 금
+  geup: 급
+  geung: 긍
+  gi: 기
+  gin: 긴
+  gil: 길
+  kim: 김
+  kka: 까
+  kkae: 깨
+  kko: 꼬
+  kkok: 꼭
+  kkot: 꽃
+  kkoe: 꾀
+  kku: 꾸
+  kkum: 꿈
+  kkeut: 끝
+  kki: 끼
+  na: 나
+  nak: 낙
+  nan: 난
+  nal: 날
+  nam: 남
+  nap: 납
+  nang: 낭
+  nae: 내
+  naeng: 냉
+  neo: 너
+  neol: 널
+  ne: 네
+  nyeo: 녀
+  nyeok: 녁
+  nyeon: 년
+  nyeom: 념
+  nyeong: 녕
+  no: 노
+  nok: 녹
+  non: 논
+  nol: 놀
+  nong: 농
+  noe: 뇌
+  nu: 누
+  nun: 눈
+  nul: 눌
+  neu: 느
+  neuk: 늑
+  neum: 늠
+  neung: 능
+  nui: 늬
+  ni: 니
+  nik: 닉
+  nin: 닌
+  nil: 닐
+  nim: 님
+  da: 다
+  dan: 단
+  dal: 달
+  dam: 담
+  dap: 답
+  dang: 당
+  dae: 대
+  daek: 댁
+  deo: 더
+  deok: 덕
+  do: 도
+  dok: 독
+  don: 돈
+  dol: 돌
+  dong: 동
+  dwae: 돼
+  doe: 되
+  doen: 된
+  du: 두
+  duk: 둑
+  dun: 둔
+  dwi: 뒤
+  deu: 드
+  deuk: 득
+  deul: 들
+  deung: 등
+  di: 디
+  tta: 따
+  ttang: 땅
+  ttae: 때
+  tto: 또
+  ttu: 뚜
+  ttuk: 뚝
+  tteu: 뜨
+  tti: 띠
+  ra: 라
+  rak: 락
+  ran: 란
+  ram: 람
+  rang: 랑
+  rae: 래
+  raeng: 랭
+  ryang: 량
+  reong: 렁
+  re: 레
+  ryeo: 려
+  ryeok: 력
+  ryeon: 련
+  ryeol: 렬
+  ryeom: 렴
+  ryeop: 렵
+  ryeong: 령
+  rye: 례
+  ro: 로
+  rok: 록
+  ron: 론
+  rong: 롱
+  roe: 뢰
+  ryo: 료
+  ryong: 룡
+  ru: 루
+  ryu: 류
+  ryuk: 륙
+  ryun: 륜
+  ryul: 률
+  ryung: 륭
+  reu: 르
+  reuk: 륵
+  reun: 른
+  reum: 름
+  reung: 릉
+  ri: 리
+  rin: 린
+  rim: 림
+  rip: 립
+  ma: 마
+  mak: 막
+  man: 만
+  mal: 말
+  mang: 망
+  mae: 매
+  maek: 맥
+  maen: 맨
+  maeng: 맹
+  meo: 머
+  meok: 먹
+  me: 메
+  myeo: 며
+  myeok: 멱
+  myeon: 면
+  myeol: 멸
+  myeong: 명
+  mo: 모
+  mok: 목
+  mol: 몰
+  mot: 못
+  mong: 몽
+  moe: 뫼
+  myo: 묘
+  mu: 무
+  muk: 묵
+  mun: 문
+  mul: 물
+  meu: 므
+  mi: 미
+  min: 민
+  mil: 밀
+  ba: 바
+  bak: 박
+  ban: 반
+  bal: 발
+  bap: 밥
+  bang: 방
+  bae: 배
+  baek: 백
+  baem: 뱀
+  beo: 버
+  beon: 번
+  beol: 벌
+  beom: 범
+  beop: 법
+  byeo: 벼
+  byeok: 벽
+  byeon: 변
+  byeol: 별
+  byeong: 병
+  bo: 보
+  bok: 복
+  bon: 본
+  bong: 봉
+  bu: 부
+  buk: 북
+  bun: 분
+  bul: 불
+  bung: 붕
+  bi: 비
+  bin: 빈
+  bil: 빌
+  bim: 빔
+  bing: 빙
+  ppa: 빠
+  ppae: 빼
+  ppeo: 뻐
+  ppo: 뽀
+  ppu: 뿌
+  ppeu: 쁘
+  ppi: 삐
+  sa: 사
+  sak: 삭
+  san: 산
+  sal: 살
+  sam: 삼
+  sap: 삽
+  sang: 상
+  sat: 샅
+  sae: 새
+  saek: 색
+  saeng: 생
+  seo: 서
+  seok: 석
+  seon: 선
+  seol: 설
+  seom: 섬
+  seop: 섭
+  seong: 성
+  se: 세
+  syeo: 셔
+  so: 소
+  sok: 속
+  son: 손
+  sol: 솔
+  sot: 솟
+  song: 송
+  swae: 쇄
+  soe: 쇠
+  su: 수
+  suk: 숙
+  sun: 순
+  sul: 술
+  sum: 숨
+  sung: 숭
+  swi: 쉬
+  seu: 스
+  seul: 슬
+  seum: 슴
+  seup: 습
+  seung: 승
+  si: 시
+  sik: 식
+  sin: 신
+  sil: 실
+  sim: 심
+  sip: 십
+  sing: 싱
+  ssa: 싸
+  ssang: 쌍
+  ssae: 쌔
+  sso: 쏘
+  ssuk: 쑥
+  ssi: 씨
+  ah: 아
+  ak: 악
+  an: 안
+  al: 알
+  am: 암
+  ap: 압
+  ang: 앙
+  ap: 앞
+  ae: 애
+  aek: 액
+  aeng: 앵
+  ya: 야
+  yak: 약
+  yan: 얀
+  yang: 양
+  eo: 어
+  eok: 억
+  eon: 언
+  eol: 얼
+  eom: 엄
+  eop: 업
+  ae: 에
+  yeo: 여
+  yeok: 역
+  yeon: 연
+  yeol: 열
+  yeom: 염
+  yeop: 엽
+  yeong: 영
+  ye: 예
+  oh: 오
+  ok: 옥
+  on: 온
+  ol: 올
+  om: 옴
+  ong: 옹
+  wa: 와
+  wan: 완
+  wal: 왈
+  wang: 왕
+  wae: 왜
+  oe: 외
+  oen: 왼
+  yo: 요
+  yok: 욕
+  yong: 용
+  oo: 우
+  uk: 욱
+  un: 운
+  ul: 울
+  um: 움
+  ung: 웅
+  wo: 워
+  won: 원
+  wol: 월
+  wi: 위
+  yu: 유
+  yuk: 육
+  yun: 윤
+  yul: 율
+  yung: 융
+  yut: 윷
+  eu: 으
+  eun: 은
+  eul: 을
+  eum: 음
+  eup: 읍
+  eung: 응
+  ui: 의
+  yi: 이
+  ik: 익
+  in: 인
+  il: 일
+  im: 임
+  ip: 입
+  ing: 잉
+  ja: 자
+  jak: 작
+  jan: 잔
+  jam: 잠
+  jap: 잡
+  jang: 장
+  jae: 재
+  jaeng: 쟁
+  jeo: 저
+  jeok: 적
+  jeon: 전
+  jeol: 절
+  jeom: 점
+  jeop: 접
+  jeong: 정
+  je: 제
+  jo: 조
+  jok: 족
+  jon: 존
+  jol: 졸
+  jong: 종
+  jwa: 좌
+  joe: 죄
+  ju: 주
+  juk: 죽
+  jun: 준
+  jul: 줄
+  jung: 중
+  jwi: 쥐
+  jeu: 즈
+  jeuk: 즉
+  jeul: 즐
+  jeum: 즘
+  jeup: 즙
+  jeung: 증
+  ji: 지
+  jik: 직
+  jin: 진
+  jil: 질
+  jim: 짐
+  jip: 집
+  jing: 징
+  jja: 짜
+  jjae: 째
+  jjo: 쪼
+  jji: 찌
+  cha: 차
+  chak: 착
+  chan: 찬
+  chal: 찰
+  cham: 참
+  chang: 창
+  chae: 채
+  chaek: 책
+  cheo: 처
+  cheok: 척
+  cheon: 천
+  cheol: 철
+  cheom: 첨
+  cheop: 첩
+  cheong: 청
+  che: 체
+  cho: 초
+  chok: 촉
+  chon: 촌
+  chong: 총
+  choe: 최
+  chu: 추
+  chuk: 축
+  chun: 춘
+  chul: 출
+  chum: 춤
+  chung: 충
+  cheuk: 측
+  cheung: 층
+  chi: 치
+  chik: 칙
+  chin: 친
+  chil: 칠
+  chim: 침
+  chip: 칩
+  ching: 칭
+  ko: 코
+  kwae: 쾌
+  keu: 크
+  keun: 큰
+  ki: 키
+  ta: 타
+  tak: 탁
+  tan: 탄
+  tal: 탈
+  tam: 탐
+  tap: 탑
+  tang: 탕
+  tae: 태
+  taek: 택
+  taeng: 탱
+  teo: 터
+  te: 테
+  to: 토
+  ton: 톤
+  tol: 톨
+  tong: 통
+  toe: 퇴
+  tu: 투
+  tung: 퉁
+  twi: 튀
+  teu: 트
+  teuk: 특
+  teum: 틈
+  ti: 티
+  pa: 파
+  pan: 판
+  pal: 팔
+  pae: 패
+  paeng: 팽
+  peo: 퍼
+  pe: 페
+  pyeo: 펴
+  pyeon: 편
+  pyeom: 폄
+  pyeong: 평
+  pye: 폐
+  po: 포
+  pok: 폭
+  pyo: 표
+  pu: 푸
+  pum: 품
+  pung: 풍
+  peu: 프
+  pi: 피
+  pik: 픽
+  pil: 필
+  pip: 핍
+  ha: 하
+  hak: 학
+  han: 한
+  hal: 할
+  ham: 함
+  hap: 합
+  hang: 항
+  hae: 해
+  haek: 핵
+  haeng: 행
+  hyang: 향
+  heo: 허
+  heon: 헌
+  heom: 험
+  he: 헤
+  hyeo: 혀
+  hyeok: 혁
+  hyeon: 현
+  hyeol: 혈
+  hyeom: 혐
+  hyeop: 협
+  hyeong: 형
+  hye: 혜
+  ho: 호
+  hok: 혹
+  hon: 혼
+  hol: 홀
+  hop: 홉
+  hong: 홍
+  hwa: 화
+  hwak: 확
+  hwan: 환
+  hwal: 활
+  hwang: 황
+  hwae: 홰
+  hwaet: 횃
+  hoe: 회
+  hoek: 획
+  hoeng: 횡
+  hyo: 효
+  hu: 후
+  hun: 훈
+  hwon: 훤
+  hwe: 훼
+  hwi: 휘
+  hyu: 휴
+  hyul: 휼
+  hyung: 흉
+  heu: 흐
+  heuk: 흑
+  heun: 흔
+  heul: 흘
+  heum: 흠
+  heup: 흡
+  heung: 흥
+  hui: 희
+  huin: 흰
+  hi: 히
+  him: 힘
