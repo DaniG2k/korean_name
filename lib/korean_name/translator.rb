@@ -1,5 +1,7 @@
 module KoreanName
   class Translator
+    require 'yaml'
+    
     def initialize(args)
       @dict = YAML.load_file "lib/korean_name/dict.yml"
 
