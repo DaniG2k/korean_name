@@ -27,11 +27,12 @@ module KoreanName
         
         part2_name = @en_first_name.gsub(part1_name, '')
 
-        first_name = [@dict['en'][part1_name], @dict['en'][part2_name]].join('').titleize
+        ko_first_name = [@dict['en'][part1_name], @dict['en'][part2_name]].join('').titleize
+        ko_last_name = @dict['en'][@en_last_name]
 
         {
-          first_name: first_name,
-          last_name: @dict['en'][@en_last_name]
+          first_name: ko_first_name,
+          last_name: ko_last_name
         }
       end
     end
